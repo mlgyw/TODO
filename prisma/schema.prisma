@@ -8,7 +8,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model order {
+model task {
   id    Int     @id @default(autoincrement())
   task String  
   isComplete Boolean

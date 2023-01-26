@@ -1,7 +1,7 @@
 import * as Sentry from "@sentry/node";
 import * as Tracing from "@sentry/tracing";
 import * as dotenv from "dotenv";
-//import DBconnector from "./Repository/connector.js";
+import DBconnector from "./Repository/connector.js";
 import app from "./Delivery/index.js";
 
 dotenv.config();

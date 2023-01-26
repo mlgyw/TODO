@@ -1,11 +1,9 @@
 import Express from "express";
-//import orders from "./orders.js";
-//import schema from "../../schema/schema.js";
-
+import task from "./task.js";
 
 const app = Express();
 
-// app.use("/api/orders",orders);
+ app.use("/api/task",task);
 
 
 export default app;
