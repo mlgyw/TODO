@@ -26,9 +26,10 @@ router.get("/createTask", validate(task, "query"), async (req, res) => {
 });
 
 router.get("/a", async (req, res) => {
-  res.json({
-    message: "hellow "
-  })
+  res.send(
+    "hellow "
+  )
+  console.log("try")
 })
 
 router.get("/wiewTask", async (req, res) => {
